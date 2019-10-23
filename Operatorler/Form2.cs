@@ -32,7 +32,7 @@ namespace Operatorler
 
 
             //Daha sonra ondalıklı ifadeler de olabileceği için bir dönüşüm daha yapıp sonucu double bir değişkene çektik.(Çevirdik)
-            double bolum = Convert.ToDouble(fark) /Convert.ToDouble(toplam);
+            double bolum = Convert.ToDouble(fark) % Convert.ToDouble(toplam);
 
             //Kullanıcıya değeri string fade olarak gösteriyoruz.
             MessageBox.Show(bolum.ToString());
