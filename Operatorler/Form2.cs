@@ -100,7 +100,7 @@ namespace Operatorler
 
             string mail = ad + "." + soyad + "@hotmail.com";
 
-            MessageBox.Show("Mal Adresiniz : "+mail);
+            MessageBox.Show("Mail Adresiniz : "+mail);
             txt1.Clear();
             txt2.Clear();
         }
